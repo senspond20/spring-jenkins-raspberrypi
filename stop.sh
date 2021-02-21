@@ -1,6 +1,4 @@
 #!/bin/bash
-# bash Call
-# sudo bash {PATH}/deploy.sh 8080 spring-boot-jenkins
 
 # Field
 PROJECT_NAME=myapp
