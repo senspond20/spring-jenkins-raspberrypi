@@ -12,12 +12,6 @@ JAR_FILE=$PROJECT_PATH/$BUILD_NAME.jar
 TMP_PATH_NAME=/tmp/$PROJECT_NAME-pid
 
 
-sudo echo "> 현재 구동중인 애플리케이션 pid 확인 "
-CURRENT_PID = $(pgrep -fl $PROJECT_NAME | grep jar | awk '{print $1}')
-
-sudo echo "현재 구동중인 애플리케이션 pid : " + $CURRENT_PID"
-
-
 sudo echo "Stoping process on port: $SERVER_PORT"
 
 sudo fuser -n tcp -k $SERVER_PORT 
