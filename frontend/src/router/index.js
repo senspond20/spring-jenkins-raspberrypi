@@ -14,19 +14,19 @@ export default new Router({
       component: HelloWorld
     },
     {
-      path: '/test1',
+      path: '/v/test1',
       name: 'Boon',
       props : 1,
       component: Boon
     },
     {
-      path: '/test2',
+      path: '/v/test2',
       name: 'Boon',
       props : 2,
       component: Boon
     },
     {
-      path: '/test3',
+      path: '/v/test3',
       name: 'Boon',
       props : 3,
       component: Boon

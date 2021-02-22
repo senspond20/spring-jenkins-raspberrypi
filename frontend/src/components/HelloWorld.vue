@@ -1,9 +1,9 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-      <a href="/test1">테스트1</a>
-      <a href="/test2">테스트2</a>
-      <a href="/test3">테스트3</a>
+      <a href="/v/test1">테스트1</a>
+      <a href="/v/test2">테스트2</a>
+      <a href="/v/test3">테스트3</a>
   </div>
 </template>
 
