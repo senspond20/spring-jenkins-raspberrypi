@@ -31,3 +31,25 @@ assetsRoot: path.resolve(__dirname, '../../src/main/resources/static'),
 assetsSubDirectory: 'static',
 assetsPublicPath: '/',
 ```
+
++ vue는 기본적으로 hash모드로 동작 url뒤에 #
++ mode : "history"로 하면 #이 안붙는다.
+
+```js
+
+export default new Router({
+  mode : "history",
+  routes: [
+    {
+      path: '/',
+      name: 'HelloWorld',
+      component: HelloWorld
+    },
+    {
+      path: '/test',
+      name: 'Boon',
+      component: Boon
+    }
+  ]
+})
+```
